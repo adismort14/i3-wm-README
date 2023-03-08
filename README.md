@@ -37,3 +37,5 @@ bindsym $mod+shift+x exec i3lock
 ```
 
 As you may find, this notation is very intuitive as in it binds the `$mod`+`shift`+`x` key combination to this execution of i3lock command. So now we don't need to open a terminal and enter the command each time we want to lock.
+
+I have also added a background image to the i3lock by modifying the above command to `bindsym $mod+shift+x exec i3lock --image path/to/file.png` . Note it only supports .png file formats.
